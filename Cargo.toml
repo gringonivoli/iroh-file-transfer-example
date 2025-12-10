@@ -1,0 +1,12 @@
+[package]
+name = "file-transfer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.100"
+iroh = "0.95.1"
+iroh-blobs = "0.97.0"
+tokio = "1.48.0"
+tracing = "0.1.43"
+tracing-subscriber = { version = "0.3.22", features = ["env-filter"]}
